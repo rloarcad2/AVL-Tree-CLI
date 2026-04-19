@@ -1,0 +1,40 @@
+digraph AVL {
+    node [shape=circle, style=filled, fillcolor=lightblue, fontname="Arial"];
+    rankdir=TB;
+    node_2302379244720 [label="15
+H=3"];
+    node_2302379244720 -> node_2302379401104;
+    node_2302379401104 [label="5
+H=2"];
+    node_2302379401104 -> node_2302379536336;
+    node_2302379536336 [label="3
+H=1"];
+    null_left_2302379536336 [shape=point];
+    node_2302379536336 -> null_left_2302379536336;
+    null_right_2302379536336 [shape=point];
+    node_2302379536336 -> null_right_2302379536336;
+    node_2302379401104 -> node_2302379535728;
+    node_2302379535728 [label="7
+H=1"];
+    null_left_2302379535728 [shape=point];
+    node_2302379535728 -> null_left_2302379535728;
+    null_right_2302379535728 [shape=point];
+    node_2302379535728 -> null_right_2302379535728;
+    node_2302379244720 -> node_2302379399824;
+    node_2302379399824 [label="20
+H=2"];
+    node_2302379399824 -> node_2302380169776;
+    node_2302380169776 [label="18
+H=1"];
+    null_left_2302380169776 [shape=point];
+    node_2302380169776 -> null_left_2302380169776;
+    null_right_2302380169776 [shape=point];
+    node_2302380169776 -> null_right_2302380169776;
+    node_2302379399824 -> node_2302379384336;
+    node_2302379384336 [label="25
+H=1"];
+    null_left_2302379384336 [shape=point];
+    node_2302379384336 -> null_left_2302379384336;
+    null_right_2302379384336 [shape=point];
+    node_2302379384336 -> null_right_2302379384336;
+}
